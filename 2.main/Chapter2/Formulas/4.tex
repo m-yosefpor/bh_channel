@@ -1,0 +1,6 @@
+% classic conditional entropy discrete
+\begin{align}
+	H(Y|X) 	& =  \sum_{x \in X} p(x) H(Y|X=x) \\
+		  	& = -\sum_{x \in X} p(x) \sum_{y \in Y} p(y|x) \log p(y|x) \\
+			& = -\sum_{x \in X} \sum_{y \in Y} 	p(x,y) \log p(y|x) 
+\end{align}
